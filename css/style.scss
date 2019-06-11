@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url('https://cdn.pixabay.com/photo/2016/01/09/18/27/old-1130731_1280.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Muli', sans-serif;
+}
+
+input {
+    font-family: Arial, FontAwesome;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border: 1px solid green;
+}
+
+.jumbotron {
+    opacity: 0.9;
+    // text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+.movieImg {
+    width:400px;
+    height:300px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.hide {
+    display: none;
+}
